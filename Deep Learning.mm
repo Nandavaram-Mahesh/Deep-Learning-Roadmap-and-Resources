@@ -1,0 +1,172 @@
+<map version="freeplane 1.12.1">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<node TEXT="Deep Learning" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" FOLDED="false" ID="ID_1090958577" CREATED="1409300609620" MODIFIED="1749364457749"><hook NAME="MapStyle" background="#000000ff" zoom="1.5">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/dark_nord_template.mm" followedTemplateLocation="template:/dark_nord_template.mm" showTagCategories="false" show_icon_for_attributes="true" auto_compact_layout="true" show_notes_in_map="true" show_tags="UNDER_NODES" show_note_icons="true" followedMapLastTime="1748771654000" fit_to_viewport="false" show_icons="BESIDE_NODES"/>
+    <tags category_separator="::"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_671184412" ICON_SIZE="12 pt" FORMAT_AS_HYPERLINK="false" COLOR="#484747" BACKGROUND_COLOR="#eceff4" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="1.9 px" BORDER_COLOR_LIKE_EDGE="true" BORDER_COLOR="#f0f0f0" BORDER_DASH_LIKE_EDGE="true" BORDER_DASH="SOLID">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#88c0d0" WIDTH="2" TRANSPARENCY="255" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_671184412" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="SansSerif" SIZE="11" BOLD="false" STRIKETHROUGH="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#81a1c1" WIDTH="3" DASH="SOLID"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details" BORDER_WIDTH="1.9 px">
+<edge STYLE="bezier" COLOR="#81a1c1" WIDTH="3"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ebcb8b">
+<icon BUILTIN="clock2"/>
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating" COLOR="#484747">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" COLOR="#e5e9f0" BACKGROUND_COLOR="#5e81ac" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#5e81ac"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_779275544" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#bf616a">
+<icon BUILTIN="yes"/>
+<arrowlink COLOR="#bf616a" TRANSPARENCY="255" DESTINATION="ID_779275544"/>
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.flower" COLOR="#ffffff" BACKGROUND_COLOR="#255aba" STYLE="oval" TEXT_ALIGN="CENTER" BORDER_WIDTH_LIKE_EDGE="false" BORDER_WIDTH="22 pt" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#f9d71c" BORDER_DASH_LIKE_EDGE="false" BORDER_DASH="CLOSE_DOTS" MAX_WIDTH="6 cm" MIN_WIDTH="3 cm"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#ffffff" BACKGROUND_COLOR="#484747" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<font NAME="Ubuntu" SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#eceff4" BACKGROUND_COLOR="#d08770" STYLE="bubble" SHAPE_HORIZONTAL_MARGIN="8 pt" SHAPE_VERTICAL_MARGIN="5 pt">
+<font NAME="Ubuntu" SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#3b4252" BACKGROUND_COLOR="#ebcb8b">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#2e3440" BACKGROUND_COLOR="#a3be8c">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#2e3440" BACKGROUND_COLOR="#b48ead">
+<font SIZE="11"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5" BACKGROUND_COLOR="#81a1c1">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6" BACKGROUND_COLOR="#88c0d0">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7" BACKGROUND_COLOR="#8fbcbb">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8" BACKGROUND_COLOR="#d8dee9">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9" BACKGROUND_COLOR="#e5e9f0">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10" BACKGROUND_COLOR="#eceff4">
+<font SIZE="9"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<font BOLD="true"/>
+<node TEXT="ANN" POSITION="bottom_or_right" ID="ID_1549914272" CREATED="1749364459082" MODIFIED="1749364464834"/>
+<node TEXT="CNN" POSITION="bottom_or_right" ID="ID_1958600999" CREATED="1749364466299" MODIFIED="1749364468402"/>
+<node TEXT="RNN" POSITION="bottom_or_right" ID="ID_1279473391" CREATED="1749364469982" MODIFIED="1749364471949"/>
+<node TEXT="Activation Functions" FOLDED="true" POSITION="top_or_left" ID="ID_1492769750" CREATED="1749364497809" MODIFIED="1749364505981">
+<node TEXT="Sigmoid" ID="ID_1402916570" CREATED="1749364517883" MODIFIED="1749364521101"/>
+<node TEXT="Tanh" ID="ID_1161411110" CREATED="1749364539118" MODIFIED="1749364544510"/>
+<node TEXT="Relu" ID="ID_539536928" CREATED="1749364547189" MODIFIED="1749365892868" TEXT_ALIGN="CENTER">
+<node TEXT="Linear" ID="ID_1504052096" CREATED="1749364669994" MODIFIED="1749364672786">
+<node TEXT="Leaky Relu" ID="ID_241041370" CREATED="1749364681644" MODIFIED="1749364692206"/>
+<node TEXT="Parametric Relu" ID="ID_1958473971" CREATED="1749364682471" MODIFIED="1749364700093"/>
+</node>
+<node TEXT="Non Linear" ID="ID_285438377" CREATED="1749364673910" MODIFIED="1749364677806">
+<node TEXT="Elu" ID="ID_1799140325" CREATED="1749364705225" MODIFIED="1749364715437"/>
+<node TEXT="Selu" ID="ID_856636373" CREATED="1749364706559" MODIFIED="1749364711894"/>
+</node>
+</node>
+</node>
+<node TEXT="Loss Functions" FOLDED="true" POSITION="top_or_left" ID="ID_1436442525" CREATED="1749364507460" MODIFIED="1749364512451">
+<node TEXT="Regression" ID="ID_1914496291" CREATED="1749364796672" MODIFIED="1749364818723">
+<node TEXT="MSE" ID="ID_1488259949" CREATED="1749364820622" MODIFIED="1749364826566"/>
+<node TEXT="MAE" ID="ID_1534120339" CREATED="1749364821212" MODIFIED="1749364829492"/>
+<node TEXT="Huber Loss" ID="ID_17706348" CREATED="1749364823520" MODIFIED="1749364835250"/>
+</node>
+<node TEXT="Classification" ID="ID_629048980" CREATED="1749364809108" MODIFIED="1749364814647">
+<node TEXT="Binary Cross Entropy/ Log Loss" ID="ID_445880951" CREATED="1749364845453" MODIFIED="1749364962618"/>
+<node TEXT="Categorical Cross Entropy" ID="ID_421539661" CREATED="1749364845861" MODIFIED="1749364867364"/>
+<node TEXT="Hinge Loss" ID="ID_545854576" CREATED="1749364847226" MODIFIED="1749364874129"/>
+<node TEXT="Sparse Categorical" ID="ID_1337472090" CREATED="1749364973279" MODIFIED="1749364993773"/>
+</node>
+<node TEXT="Which loss function to use when?" ID="ID_1170378313" CREATED="1749365059557" MODIFIED="1749365089602">
+<node TEXT="Hidden Layer" ID="ID_975248931" CREATED="1749365104413" MODIFIED="1749365197530">
+<node TEXT="RELU" ID="ID_802205950" CREATED="1749365209594" MODIFIED="1749365223670">
+<node TEXT="Output Layer" ID="ID_1336507817" CREATED="1749365256221" MODIFIED="1749365278864">
+<node TEXT="Problem Statement" POSITION="top_or_left" ID="ID_559166922" CREATED="1749365294482" MODIFIED="1749365613006"/>
+<node TEXT="Binary Classification" POSITION="top_or_left" ID="ID_371333680" CREATED="1749365405099" MODIFIED="1749365421626">
+<node TEXT="Loss Function" POSITION="top_or_left" ID="ID_304143194" CREATED="1749365460515" MODIFIED="1749365468371"/>
+<node TEXT="Binary Cross Entropy" POSITION="top_or_left" ID="ID_1745308313" CREATED="1749365470518" MODIFIED="1749365482779"/>
+</node>
+</node>
+<node TEXT="Sigmoid" ID="ID_1232843810" CREATED="1749365282443" MODIFIED="1749365291136"/>
+</node>
+<node TEXT="RELU" ID="ID_184833085" CREATED="1749365210612" MODIFIED="1749365234725">
+<node TEXT="Output Layer" ID="ID_838606629" CREATED="1749365256221" MODIFIED="1749365278864">
+<node TEXT="Problem Statement" POSITION="top_or_left" ID="ID_1652496128" CREATED="1749365294482" MODIFIED="1749365618753"/>
+<node TEXT="Multiclass Classification" POSITION="top_or_left" ID="ID_741520212" CREATED="1749365405099" MODIFIED="1749365606475">
+<node TEXT="Loss Function" POSITION="top_or_left" ID="ID_1121823094" CREATED="1749365460515" MODIFIED="1749365468371"/>
+<node TEXT="Categorical Cross Entropy / Sparse Cross Entropy" POSITION="top_or_left" ID="ID_1252325315" CREATED="1749365470518" MODIFIED="1749365663516"/>
+</node>
+</node>
+<node TEXT="Softmax" ID="ID_859855471" CREATED="1749365282443" MODIFIED="1749365588555"/>
+</node>
+<node TEXT="RELU" ID="ID_758182805" CREATED="1749365210972" MODIFIED="1749365237997">
+<node TEXT="Output Layer" ID="ID_232057503" CREATED="1749365256221" MODIFIED="1749365278864">
+<node TEXT="Problem Statement" POSITION="top_or_left" ID="ID_1588867510" CREATED="1749365294482" MODIFIED="1749365624324"/>
+<node TEXT="Regression" POSITION="top_or_left" ID="ID_1578665257" CREATED="1749365405099" MODIFIED="1749365633531">
+<node TEXT="Loss Function" POSITION="top_or_left" ID="ID_55617581" CREATED="1749365460515" MODIFIED="1749365468371"/>
+<node TEXT="MSE/MAE/Huber Loss/RMSE" POSITION="top_or_left" ID="ID_208991892" CREATED="1749365470518" MODIFIED="1749365717012"/>
+</node>
+</node>
+<node TEXT="Linear" ID="ID_1160726239" CREATED="1749365282443" MODIFIED="1749365684140"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Optimizers in Deep Learning" FOLDED="true" POSITION="top_or_left" ID="ID_1993846446" CREATED="1749429426022" MODIFIED="1749429426022">
+<node TEXT="Gradient Descent Variants" ID="ID_1695941582" CREATED="1749429426022" MODIFIED="1749429426022">
+<node TEXT="Gradient Descent (GD) or Batch Gradient Descent(BGD)" ID="ID_223888527" CREATED="1749429426022" MODIFIED="1749439815865"/>
+<node TEXT="Stochastic Gradient Descent (SGD)" ID="ID_911849351" CREATED="1749429426022" MODIFIED="1749429426022"/>
+<node TEXT="Mini-Batch Gradient Descent" ID="ID_1217016737" CREATED="1749429426022" MODIFIED="1749429426022"/>
+</node>
+<node TEXT="Momentum Based" ID="ID_1767282649" CREATED="1749429426022" MODIFIED="1749429426022">
+<node TEXT="SGD with Momentum" ID="ID_1895155556" CREATED="1749429426022" MODIFIED="1749429426022"/>
+<node TEXT="Nesterov Accelerated Gradient (NAG)" ID="ID_1930088303" CREATED="1749429426022" MODIFIED="1749429426022"/>
+</node>
+<node TEXT="Adaptive Learning Rate" ID="ID_1485359002" CREATED="1749429426022" MODIFIED="1749429426022">
+<node TEXT="Adagrad" ID="ID_1067905817" CREATED="1749429426022" MODIFIED="1749429426022"/>
+<node TEXT="RMSProp" ID="ID_1952841778" CREATED="1749429426022" MODIFIED="1749429426022"/>
+<node TEXT="Adadelta" ID="ID_1786502427" CREATED="1749429426022" MODIFIED="1749429426022"/>
+</node>
+<node TEXT="Momentum + Adaptive" ID="ID_1552489020" CREATED="1749429426022" MODIFIED="1749429426022">
+<node TEXT="Adam" ID="ID_1099442073" CREATED="1749429426022" MODIFIED="1749429426022"/>
+<node TEXT="Adamax" ID="ID_1224977747" CREATED="1749429426022" MODIFIED="1749429426022"/>
+<node TEXT="Nadam" ID="ID_1080711787" CREATED="1749429426022" MODIFIED="1749429426022"/>
+<node TEXT="LAMB" ID="ID_1367780833" CREATED="1749429426022" MODIFIED="1749429426022"/>
+</node>
+</node>
+</node>
+</map>
